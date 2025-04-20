@@ -1,0 +1,28 @@
+{
+  "header": {
+    "top": "Biz bilan bog'laning",
+    "home": "Bosh sahifa",
+    "courses": "Kurslar",
+    "mentors": "Mentorlar",
+    "about": "Biz haqimizda",
+    "contact": "Aloqa",
+    "free": "Bepul maslahat",
+    "modal": {
+      "title": "Bepul Konsultatsiya",
+      "text": "Formani to‘ldiring va biz siz bilan bog‘lanamiz",
+      "iname": "Ismingiz",
+      "select": "Kursni tanlang",
+      "btn": "Yuborish",
+      "error": {
+        "name": "Bu maydon to‘ldirilishi shart",
+        "select": "Iltimos, kursni tanlang",
+        "tel": "Telefon raqami +998 XX XXX XX XX formatida bo‘lishi kerak"
+      }
+    }
+  },
+  "boshi": {
+    "title": "Tajribaga asoslangan ishonchli kelajak",
+    "text": "It Time — zamonaviy kasblar akademiyasi. Biz tajribali mutaxassislar yordamida so‘nggi texnologiyalar va real loyihalar asosida o‘qitamiz. Maqsadimiz — sizni yuqori maoshli IT mutaxassisiga aylantirish.",
+    "btn": "Ariza qoldirish"
+  }
+}

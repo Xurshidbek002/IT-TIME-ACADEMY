@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Ittime from "../Components/Ittime";
+import Iconlar from "../Components/Iconlar";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className="pt-19">
+      <Ittime />
+      <Iconlar/>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

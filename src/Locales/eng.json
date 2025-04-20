@@ -1,0 +1,29 @@
+{
+  "header": {
+    "top": "Contact us",
+    "home": "Home",
+    "courses": "Courses",
+    "mentors": "Mentors",
+    "about": "About",
+    "contact": "Contact",
+    "free": "Free consultation",
+    "modal": {
+      "title": "Free Consultation",
+      "text": "Fill out the form and we will contact you",
+      "iname": "Your Name",
+      "select": "Select a Course",
+      "btn": "Submit",
+      "error": {
+        "name": "This field is required",
+        "select": "Please select a course",
+        "tel": "Phone number must be in format +998 XX XXX XX XX"
+      }
+    }
+  },
+
+  "boshi": {
+    "title": "A reliable future based on experience",
+    "text": "It Time is an academy of modern professions. We teach using the latest technologies and real projects with the help of experienced professionals. Our goal is to make you a highly paid IT specialist.",
+    "btn": "Submit Application"
+  }
+}

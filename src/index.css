@@ -1,7 +1,50 @@
 @import "tailwindcss";
 
+* {
+  font-family: "Roboto";
+    scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 0, 0) rgba(238, 90, 90, 0.638);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
 .container {
-  max-width: 1245px;
+  max-width: 1330px;
   width: 100%;
+  margin: 0 auto;
   padding: 0 1rem;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  transition: color 0.4s ease;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  bottom: -3px; /* 3px pastroqdan chiqadi */
+  left: 50%;
+  height: 2px;
+  background: red;
+  width: 100%;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform 0.4s ease;
+}
+
+.button:hover,
+.button.active {
+  color: red; /* Text rangi qizil bo‘ladi */
+}
+
+.button:hover::after,
+.button.active::after {
+  transform: translateX(-50%) scaleX(1);
 }
