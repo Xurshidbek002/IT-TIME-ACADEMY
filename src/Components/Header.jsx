@@ -330,7 +330,9 @@ function Header() {
             <h2 className="text-xl md:text-2xl font-bold mb-2">
               {t("header.modal.title")}
             </h2>
-            <p className="text-sm md:text-md text-gray-600 md:mb-4 mb-2">{t("header.modal.text")}</p>
+            <p className="text-sm md:text-md text-gray-600 md:mb-4 mb-2">
+              {t("header.modal.text")}
+            </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               {/* Name input */}

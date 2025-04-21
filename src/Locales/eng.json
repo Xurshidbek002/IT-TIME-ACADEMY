@@ -25,5 +25,33 @@
     "title": "A reliable future based on experience",
     "text": "It Time is an academy of modern professions. We teach using the latest technologies and real projects with the help of experienced professionals. Our goal is to make you a highly paid IT specialist.",
     "btn": "Submit Application"
+  },
+  "section": {
+  "title": "Why choose us?",
+  "1": {
+    "title": "No money? - We have a solution!",
+    "text": "If you don’t have enough funds to attend the courses, don’t worry. We will help you solve this problem."
+  },
+  "2": {
+    "title": "Sell your knowledge successfully!",
+    "text": "We not only provide knowledge but also help you market it successfully and start your career."
+  },
+  "3": {
+    "title": "Quality education from top experts!",
+    "text": "Our instructors are professionals with real industry experience."
+  },
+  "4": {
+    "title": "Practice, real projects, and portfolio!",
+    "text": "During the course, you’ll work on real projects and build your portfolio."
+  },
+  "5": {
+    "title": "Modern environment, free coworking & Wi-Fi",
+    "text": "A comfortable, modern learning space, free coworking zone, and high-speed internet are at your service."
+  },
+  "6": {
+    "title": "Certificate",
+    "text": "Every student who successfully completes the course receives a certificate that meets international standards."
   }
+}
+
 }

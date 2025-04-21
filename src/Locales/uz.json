@@ -24,5 +24,32 @@
     "title": "Tajribaga asoslangan ishonchli kelajak",
     "text": "It Time — zamonaviy kasblar akademiyasi. Biz tajribali mutaxassislar yordamida so‘nggi texnologiyalar va real loyihalar asosida o‘qitamiz. Maqsadimiz — sizni yuqori maoshli IT mutaxassisiga aylantirish.",
     "btn": "Ariza qoldirish"
+  },
+  "section": {
+    "title": "Nega aynan bizni tanlashingiz kerak?",
+    "1": {
+      "title": "Mablag' yo'qmi? - Bizda yechim bor!",
+      "text": "Agar kurslarga qatnashish uchun yetarli mablag'ingiz bo'lmasa, tushkunlikka tushmang. Biz sizga bu muammoni hal qilishda yordam beramiz."
+    },
+    "2": {
+      "title": "Bilimingizni muvaffaqiyatli soting!",
+      "text": "Biz nafaqat bilim beramiz, balki uni muvaffaqiyatli sotish va karyerangizni boshlashga yordam beramiz."
+    },
+    "3": {
+      "title": "Kuchli mutaxassislardan sifatli ta'lim!",
+      "text": "Bizning o'qituvchilarimiz - o'z sohalarining real ish tajribasiga ega professional vakillari."
+    },
+    "4": {
+      "title": "Amaliyot, real loyihalar va portfolio!",
+      "text": "O'qish jarayonida siz real loyihalar ustida ishlaysiz va portfoliongizni shakllantirasiz."
+    },
+    "5": {
+      "title": "Zamonaviy muhit, bepul Coworking va Wi-Fi",
+      "text": "Qulay va zamonaviy o'quv muhiti, bepul coworking zona va yuqori tezlikdagi internet sizning ixtiyoringizda."
+    },
+    "6": {
+      "title": "Sertifikat",
+      "text": "Kursni muvaffaqiyatli tugatgan har bir talabaga xalqaro standartlarga mos sertifikat beriladi."
+    }
   }
 }
