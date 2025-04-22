@@ -35,7 +35,7 @@ const RotatingIcons = () => {
   }, []);
 
   return (
-    <div className="relative max-w-[400px] h-[400px] mx-auto md:my-20">
+    <div className="relative max-w-[400px] h-[400px] mx-auto -my-20 md:my-20">
       {/* Rotating container */}
       <div className="absolute w-full h-full animate-[spin_40s_linear_infinite]">
         {icons.map((item, index) => {
@@ -55,9 +55,11 @@ const RotatingIcons = () => {
               <div
                 data-aos="zoom-out-up"
                 data-aos-delay={item.fade}
-                className="w-[60px] h-[60px] hover:scale-110 hover:shadow-[0_0_16px_red]/50 rounded-full bg-white shadow-md flex items-center justify-center text-red-500 transition-all duration-500"
+                className=""
               >
-                {item.icon}
+                <div className="w-[60px] h-[60px] hover:scale-110 hover:shadow-[0_0_16px_red]/50 rounded-full bg-white shadow-md flex items-center justify-center text-red-500 transition-all duration-500">
+                  {item.icon}
+                </div>
               </div>
               <p className="text-center absolute -bottom-7 w-50 font-bold text-sm text-gray-700 mt-1 hidden group-hover:inline transition duration-300">
                 {item.label}

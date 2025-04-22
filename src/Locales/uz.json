@@ -51,5 +51,13 @@
       "title": "Sertifikat",
       "text": "Kursni muvaffaqiyatli tugatgan har bir talabaga xalqaro standartlarga mos sertifikat beriladi."
     }
+  },
+  "graduates": {
+    "title": "Bitiruvchilarimizning muvaffaqiyat hikoyalari",
+    "graduate": "Bitiruvchi",
+    "yol": "Frontend dasturchi",
+    "text": "Kursni muvaffaqiyatli tugatdi va IT kompaniyada ish topdi",
+    "company": "Kompaniya",
+    "soqqa": "Daromad o‘sishi"
   }
 }

@@ -3,6 +3,7 @@ import Ittime from "../Components/Ittime";
 import Iconlar from "../Components/Iconlar";
 import Section from "../Components/Section";
 import { useTranslation } from "react-i18next";
+import Graduates from "../Components/Graduates";
 
 function Home() {
   const { t } = useTranslation();
@@ -11,6 +12,7 @@ function Home() {
       <Ittime />
       <Iconlar />
       <Section />
+      <Graduates />
     </div>
   );
 }

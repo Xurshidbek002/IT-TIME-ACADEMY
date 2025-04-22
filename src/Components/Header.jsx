@@ -75,8 +75,8 @@ function Header() {
   return (
     <div>
       <div
-        data-aos="fade-down"
-        data-aos-duration="1500"
+        data-aos="fade-in"
+        data-aos-duration="1000"
         className="fixed w-full z-100"
       >
         <div className="bg-red-500 py-2 hidden md:block">
@@ -101,12 +101,16 @@ function Header() {
             </select>
             <div className="flex  gap-5 items-center text-md font-medium text-white">
               <a
+                data-aos="fade-up"
+                data-aos-delay="500"
                 className="flex hover:text-white/80 items-center gap-2"
                 href="tel:+998332221123"
               >
                 <FaPhone /> +998(33)2221123
               </a>
               <a
+                data-aos="fade-up"
+                data-aos-delay="700"
                 className="flex hover:text-white/80 items-center gap-2"
                 href="https://t.me/egoistfunny"
               >
@@ -114,6 +118,8 @@ function Header() {
                 Telegram
               </a>
               <a
+                data-aos="fade-up"
+                data-aos-delay="900"
                 className="flex items-center transition duration-500 gap-2 hover:bg-white hover:text-red-500 border-[2px] border-white px-4 py-1 rounded-2xl"
                 href="https://t.me/egoistmiz"
               >
@@ -125,7 +131,7 @@ function Header() {
         </div>
         <div className="bg-white py-4 shadow-md">
           <div className="container flex items-center justify-between">
-            <a href="/" className="">
+            <a data-aos="fade-in" data-aos-delay="500" href="/" className="">
               <img src={logo} alt="" className="w-41" />
             </a>
             <nav className="hidden md:flex gap-4 items-center">
@@ -135,14 +141,22 @@ function Header() {
               >
                 {t("header.home")}
               </NavLink>
-              <div className="w-[2px] h-6 transform rotate-28 bg-gradient-to-b from-transparent via-red-500 to-transparent"></div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="2000"
+                className="w-[2px] h-6 transform rotate-28 bg-gradient-to-b from-transparent via-red-500 to-transparent"
+              ></div>
               <NavLink
                 to="/courses"
                 className="text-xl button font-medium text-gray-800"
               >
                 {t("header.courses")}
               </NavLink>
-              <div className="w-[2px] h-6 transform rotate-28 bg-gradient-to-b from-transparent via-red-500 to-transparent"></div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="2000"
+                className="w-[2px] h-6 transform rotate-28 bg-gradient-to-b from-transparent via-red-500 to-transparent"
+              ></div>
 
               <NavLink
                 to="/mentors"
@@ -150,7 +164,11 @@ function Header() {
               >
                 {t("header.mentors")}
               </NavLink>
-              <div className="w-[2px] h-6 transform rotate-28 bg-gradient-to-b from-transparent via-red-500 to-transparent"></div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="2000"
+                className="w-[2px] h-6 transform rotate-28 bg-gradient-to-b from-transparent via-red-500 to-transparent"
+              ></div>
 
               <NavLink
                 to="/about"
@@ -158,7 +176,11 @@ function Header() {
               >
                 {t("header.about")}
               </NavLink>
-              <div className="w-[2px] h-6 transform rotate-28 bg-gradient-to-b from-transparent via-red-500 to-transparent"></div>
+              <div
+                data-aos="fade-up"
+                data-aos-delay="2000"
+                className="w-[2px] h-6 transform rotate-28 bg-gradient-to-b from-transparent via-red-500 to-transparent"
+              ></div>
 
               <NavLink
                 to="/contact"

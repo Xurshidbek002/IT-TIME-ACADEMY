@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import RotatingIcons from "./RotatingIcons";
 import Modal from "./Modal";
@@ -6,6 +6,13 @@ import { FaSpinner } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 function Ittime() {
+  useEffect(() => {
+    if (window.particlesJS) {
+      window.particlesJS.load("particles-js", "/particles-config.json", () => {
+        console.log("Particles.js loaded via CDN ✅");
+      });
+    }
+  }, []);
   const [open, setOpen] = useState(false);
 
   const handleModal = () => {
@@ -54,11 +61,16 @@ function Ittime() {
     }
   };
   const { t } = useTranslation();
+  
   return (
     <div>
       <div className="container">
-        <div className="grid grid-cols-1 lg:grid-cols-2 -gap-10 gap-8 items-center ">
-          <div className="flex flex-col gap-5 items-center text-center md:text-left md:items-start">
+      <div
+        id="particles-js"
+        className="absolute top-0 left-0 w-full h-full z-0"
+      ></div>
+        <div className="grid grid-cols-1 lg:grid-cols-2  md:gap-8 items-center h-[90vh]">
+          <div className="flex flex-col gap-5 items-center text-center lg:text-left lg:items-start">
             <h2
               data-aos="fade-right"
               className="text-[30px] mt-3 md:text-[60px] font-[900] md:leading-15 bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent"
@@ -68,21 +80,25 @@ function Ittime() {
             <p
               data-aos="fade-up"
               data-aos-delay="300"
-              className="font-medium text-[10px] md:text-[15px]"
+              className="font-medium text-[15px] md:text-[15px]"
             >
               {t("boshi.text")}
             </p>
-            <button
+            <div
               data-aos="fade-up"
               data-aos-delay="700"
-              data-aos-duration="1000"
-              onClick={handleModal}
-              className="md:px-10 px-3 mt-2 py-1 md:py-4 rounded-xl font-bold text-white bg-gradient-to-tr transition duration-1000 hover:from-red-800 hover:to-red-600 from-red-600 to-red-800"
+              data-aos-duration="500"
+              className=""
             >
-              {t("boshi.btn")}
-            </button>
+              <button
+                onClick={handleModal}
+                className="md:px-10 px-7 mt-4 py-3 md:py-4 rounded-xl font-bold text-white bg-gradient-to-tr transition duration-500 hover:from-red-800 hover:to-red-600 from-red-600 to-red-800"
+              >
+                {t("boshi.btn")}
+              </button>
+            </div>
           </div>
-          <div className="right  md:order-none ">
+          <div className="right  -order-1 lg:order-none ">
             <RotatingIcons />
           </div>
         </div>

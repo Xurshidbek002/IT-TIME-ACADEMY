@@ -27,31 +27,38 @@
     "btn": "Submit Application"
   },
   "section": {
-  "title": "Why choose us?",
-  "1": {
-    "title": "No money? - We have a solution!",
-    "text": "If you don’t have enough funds to attend the courses, don’t worry. We will help you solve this problem."
+    "title": "Why choose us?",
+    "1": {
+      "title": "No money? - We have a solution!",
+      "text": "If you don’t have enough funds to attend the courses, don’t worry. We will help you solve this problem."
+    },
+    "2": {
+      "title": "Sell your knowledge successfully!",
+      "text": "We not only provide knowledge but also help you market it successfully and start your career."
+    },
+    "3": {
+      "title": "Quality education from top experts!",
+      "text": "Our instructors are professionals with real industry experience."
+    },
+    "4": {
+      "title": "Practice, real projects, and portfolio!",
+      "text": "During the course, you’ll work on real projects and build your portfolio."
+    },
+    "5": {
+      "title": "Modern environment, free coworking & Wi-Fi",
+      "text": "A comfortable, modern learning space, free coworking zone, and high-speed internet are at your service."
+    },
+    "6": {
+      "title": "Certificate",
+      "text": "Every student who successfully completes the course receives a certificate that meets international standards."
+    }
   },
-  "2": {
-    "title": "Sell your knowledge successfully!",
-    "text": "We not only provide knowledge but also help you market it successfully and start your career."
-  },
-  "3": {
-    "title": "Quality education from top experts!",
-    "text": "Our instructors are professionals with real industry experience."
-  },
-  "4": {
-    "title": "Practice, real projects, and portfolio!",
-    "text": "During the course, you’ll work on real projects and build your portfolio."
-  },
-  "5": {
-    "title": "Modern environment, free coworking & Wi-Fi",
-    "text": "A comfortable, modern learning space, free coworking zone, and high-speed internet are at your service."
-  },
-  "6": {
-    "title": "Certificate",
-    "text": "Every student who successfully completes the course receives a certificate that meets international standards."
+  "graduates": {
+    "title": "Success stories of our graduates",
+    "graduate": "Graduate",
+    "yol": "Frontent Developer",
+    "text": "Successfully completed the course and found a job in an IT company",
+    "company": "Company",
+    "soqqa": "Income growth"
   }
-}
-
 }

@@ -50,7 +50,7 @@ const base = [
 function Section() {
   const { t } = useTranslation();
   return (
-    <div className="bg-[#dedede3f] mt-15 pt-15 px-3 md:px-12">
+    <div className="bg-[#dedede3f] py-15 mt-15 pt-15 px-3 md:px-12">
       <div className="container">
         <div className="">
           <h2 className="text-3xl font-bold text-center">

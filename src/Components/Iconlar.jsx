@@ -44,7 +44,7 @@ const base = [
 
 function Iconlar() {
   return (
-    <div>
+    <div className="mt-10">
       <div className="container">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-7 transition duration-500 ">
           {base.map((item) => (
