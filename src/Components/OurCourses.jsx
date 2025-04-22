@@ -111,7 +111,7 @@ function OurCourses() {
   );
 
   return (
-    <div className="px-10 mt-10 mb-10">
+    <div className="md:px-10 mt-10 mb-10">
       <div className="container">
         <h2 className="text-center text-4xl font-bold py-13">
           {t("cours.title")}

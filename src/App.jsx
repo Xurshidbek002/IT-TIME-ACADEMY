@@ -115,11 +115,11 @@ function App() {
             to={item.link}
             className={({ isActive }) =>
               `bg-red-600 text-[25px] hover:text-[26px] text-white ${
-                isActive ? "w-17" : "w-14"
-              } duration-200 h-12 hover:w-15 flex items-center justify-center rounded-tr-sm rounded-br-sm overflow-hidden relative`
+                isActive ? "w-11 md:w-17" : "w-9 md:w-14"
+              } duration-200 h-8 md:h-12 hover:w-15 flex items-center justify-center rounded-tr-sm rounded-br-sm overflow-hidden relative`
             }
           >
-            {item.icon}
+            <div className="z-10">{item.icon}</div>
             <div className="bg-gradient-to-l from-red-600 to-red-500 w-full h-3 absolute top-0"></div>
             <div className="bg-gradient-to-b from-red-700 to-red-500 h-full w-2 absolute right-0"></div>
           </NavLink>

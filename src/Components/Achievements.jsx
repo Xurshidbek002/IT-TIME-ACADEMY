@@ -28,7 +28,7 @@ const card = [
 const Achievements = () => {
   const { t } = useTranslation();
   return (
-    <section className="info-container px-5 py-15 relative overflow-hidden [background:linear-gradient(135deg,#dc2626,#991b1b)]">
+    <section className="info-container md:px-5 py-15 relative overflow-hidden [background:linear-gradient(135deg,#dc2626,#991b1b)]">
       <div className={style.container}>
         <h2
           className="text-center text-white font-semibold text-2xl md:text-3xl lg:text-4xl  relative text-shadow-[2px_2px_4px_rgba(0_0_0_/_0.3)]"
@@ -37,7 +37,7 @@ const Achievements = () => {
         >
           {t("achiev.ttitle")}
         </h2>
-        <div className="mx-auto w-30 rounded-2xl mb-8 mt-5 h-1 bg-white/50"></div>
+        <div className=" w-30 mx-auto rounded-2xl mb-8 mt-5 h-1 bg-white/50"></div>
         <div className="mb-12 grid gap-4 lg:gap-8 grid-cols-1 md:grid-cols-4">
           <div
             className="min-w-[150px] flex-1 p-4 md:px-7 md:py-10 bg-white/95 rounded-[20px] shadow-[0_15px_30px_#00000026] text-center transition-all duration-300 ease-in-out backdrop-blur-[10px] border border-white/20"
@@ -104,11 +104,11 @@ const Achievements = () => {
           <div className="text-center p-12 bg-gradient-to-r from-white to-red-500/20 rounded-2xl">
             <h3
               data-aos="fade-right"
-              className="text-red-600 text-xl font-medium md:text-[33px] mb-6 "
+              className="text-red-600 text-md font-medium md:text-[33px] mb-6 "
             >
               {t("achiev.btitle")}
             </h3>
-            <p data-aos="fade-left" className="text-sm max-w-[70%] mx-auto">
+            <p data-aos="fade-left" className="text-sm md:max-w-[70%] mx-auto">
               {t("achiev.text")}
             </p>
             <div className="mt-10 grid grid-cols-1 md:grid-cols-4 gap-10">
