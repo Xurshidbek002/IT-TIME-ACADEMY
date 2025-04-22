@@ -116,6 +116,7 @@ function VideoCard({ item, t }) {
   return (
     <div className="h-135 md:h-120 relative group rounded-2xl overflow-hidden">
       <video
+      data-aos="flip-left"
         ref={videoRef}
         muted={isMuted}
         className="w-full h-full object-cover"
