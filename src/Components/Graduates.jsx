@@ -116,7 +116,7 @@ function VideoCard({ item, t }) {
   return (
     <div className="h-135 md:h-120 relative group rounded-2xl overflow-hidden">
       <video
-      data-aos="flip-left"
+        data-aos="flip-left"
         ref={videoRef}
         muted={isMuted}
         className="w-full h-full object-cover"
@@ -126,7 +126,7 @@ function VideoCard({ item, t }) {
       </video>
 
       {/* Hover qilganda ko‘rinadigan overlay */}
-      <div className="z-10 transform opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 w-full h-full absolute top-0 left-0 bg-gradient-to-t from-black via-black/80 to-black/0">
+      <div className="z-10 transform opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 w-full h-full absolute top-0 left-0 bg-gradient-to-t from-black via-black/80 to-black/0">
         <div className="p-5 h-full flex flex-col justify-between">
           {/* Tugmalar */}
           <div className="flex justify-end gap-4 text-red-500 text-xl">

@@ -60,5 +60,122 @@
     "text": "Successfully completed the course and found a job in an IT company",
     "company": "Company",
     "soqqa": "Income growth"
+  },
+  "cours": {
+    "title": "Our Courses",
+    "frontend": "Frontend Programming",
+    "backend": "Backend Programming",
+    "xaker": "Hacker",
+    "front": {
+      "1": "JavaScript library for creating modern user interfaces",
+      "2": "Progressive JavaScript framework",
+      "3": "Platform for building web applications",
+      "4": "Core programming language for web development",
+      "5": "Foundation of web programming",
+      "6": "Universal programming language"
+    },
+    "back": {
+      "1": "JavaScript runtime for server-side programming",
+      "2": "Web framework for Node.js",
+      "3": "NoSQL database",
+      "4": "Relational database management system",
+      "5": "Server-side scripting language"
+    },
+    "xack": {
+      "1": {
+        "title": "Cybersecurity",
+        "text": "Cybersecurity basics and protection methods"
+      },
+      "2": {
+        "title": "Ethical Hacking",
+        "text": "Ethical hacking and system testing"
+      },
+      "3": {
+        "title": "Network Security",
+        "text": "Network security and threat protection"
+      },
+      "4": {
+        "title": "Penetration Testing",
+        "text": "Vulnerability identification and testing"
+      },
+      "5": {
+        "title": "Security Tools",
+        "text": "Security tools and software"
+      }
+    }
+  },
+  "achiev": {
+    "ttitle": "Our Achievements",
+    "tcard": {
+      "1": "Modern Courses",
+      "2": "Graduates",
+      "3": "Employment Rate",
+      "4": "Average Rating"
+    },
+    "btitle": "IT Time Academy - Learn the Professions of the Future",
+    "text": "Our training center provides professional education in modern programming technologies, mobile graphics, and SMM. Through experienced teachers and practical projects, you will become a modern specialist.",
+    "bcard": {
+      "1": "Top IT Academy",
+      "2": "International Certificates",
+      "3": "IT Company Partnerships",
+      "4": "Practical Education"
+    }
+  },
+  "register": {
+    "enroll": "Enroll in Course",
+    "job": "Apply for Job",
+    "messbtn": "Message",
+    "enrolls": {
+      "title": "Enroll in Our Courses",
+      "text": "Learn modern professions from professional mentors and find your place in IT!",
+      "more": {
+        "1": {
+          "title": "Professional Education",
+          "text": "Learn from experienced teachers"
+        },
+        "2": {
+          "title": "Practical Experience",
+          "text": "Work on real projects"
+        },
+        "3": {
+          "title": "Career Support",
+          "text": "Help and advice in employment"
+        }
+      },
+      "form": {
+        "title": "Course Registration",
+        "name": "Full name",
+        "curs": "Select course",
+        "mess": "Additional message"
+      }
+    },
+
+    "jobs": {
+      "title": "Want to Get a Job?",
+      "text": "Send your resume and we will contact you. You can get a job after successfully passing the interview!",
+      "more": {
+        "1": {
+          "title": "Guaranteed Job",
+          "text": "We help you find a job that matches your qualifications"
+        },
+        "2": {
+          "title": "Good Salary",
+          "text": "High income and opportunities in the IT field"
+        },
+        "3": {
+          "title": "Career Growth",
+          "text": "Continuous development and new opportunities"
+        }
+      },
+      "form": {
+        "title": "Submit Resume",
+        "name": "Full name",
+        "gmail": "Email address",
+        "about": "About yourself",
+        "work": "Work experience",
+        "skills": "Skills",
+        "upload": "Upload resume"
+      }
+    }
   }
 }

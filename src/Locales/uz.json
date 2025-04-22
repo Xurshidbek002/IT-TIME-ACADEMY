@@ -59,5 +59,121 @@
     "text": "Kursni muvaffaqiyatli tugatdi va IT kompaniyada ish topdi",
     "company": "Kompaniya",
     "soqqa": "Daromad o‘sishi"
+  },
+  "cours": {
+    "title": "Bizning kurslar",
+    "frontend": "Front-and Dasturlash",
+    "backend": "Back-end Dasturlash",
+    "xaker": "Xaker",
+    "front": {
+      "1": "Zamonaviy foydalanuvchi interfeyslarini yaratish uchun JavaScript kutubxonasi",
+      "2": "Progressive JavaScript freymvorki",
+      "3": "Veb-ilovalarni yaratish platformasi",
+      "4": "Veb-dasturlash uchun asosiy dasturlash tili",
+      "5": "Veb-dasturlashning poydevori",
+      "6": "Universal dasturlash tili"
+    },
+    "back": {
+      "1": "Server tomonidagi dasturlash uchun JavaScript muhiti",
+      "2": "Node.js uchun veb-freymvork",
+      "3": "NoSQL ma'lumotlar bazasi",
+      "4": "Relyatsion ma'lumotlar bazasini boshqarish",
+      "5": "Server tomonidagi skript tili"
+    },
+    "xack": {
+      "1": {
+        "title": "Kiberhavfsizlik",
+        "text": "Kiberhavfsizlik asoslari va himoya usullar"
+      },
+      "2": {
+        "title": "Etik hacking",
+        "text": "Axloqiy hacking va tizimlarni testlash"
+      },
+      "3": {
+        "title": "Tarmoq xavfsizligi",
+        "text": "Tarmoq xavfsizligi va tahdidlardan himoya"
+      },
+      "4": {
+        "title": "Penetration Testing",
+        "text": "Zaifliklarni aniqlash va testlash"
+      },
+      "5": {
+        "title": "Security Tools",
+        "text": "Xavfsizlik vositalari va dasturlar"
+      }
+    }
+  },
+  "achiev": {
+    "ttitle": "Bizning yutuqlarimiz",
+    "tcard": {
+      "1": "Zamonaviy kurslar",
+      "2": "Bitiruvchilar",
+      "3": "Ishga joylashish darajasi",
+      "4": "O‘rtacha baho"
+    },
+    "btitle": "IT Time Academy – Kelajak kasblarini o‘rganing",
+    "text": "Bizning o‘quv markazimiz zamonaviy dasturlash texnologiyalari, mobil grafikalar va SMM bo‘yicha professional ta’lim beradi. Tajribali o‘qituvchilar va amaliy loyihalar orqali siz zamonaviy mutaxassisga aylanasiz.",
+    "bcard": {
+      "1": "Eng yaxshi IT akademiya",
+      "2": "Xalqaro sertifikatlar",
+      "3": "IT kompaniyalar bilan hamkorlik",
+      "4": "Amaliy ta'lim"
+    }
+  },
+  "register": {
+    "enroll": "Kursga yozilish",
+    "job": "Ishga ariza topshirish",
+    "messbtn": "Xabar yuborish",
+    "enrolls": {
+      "title": "Kurslarimizga yoziling",
+      "text": "Professional mentorlardan zamonaviy kasblarni o‘rganing va IT sohasida o‘zingizga joy toping!",
+      "more": {
+        "1": {
+          "title": "Professional ta'lim",
+          "text": "Tajribali ustozlardan ta'lim oling"
+        },
+        "2": {
+          "title": "Amaliy tajriba",
+          "text": "Haqiqiy loyihalarda ishlang"
+        },
+        "3": {
+          "title": "Karyera qo‘llab-quvvatlovi",
+          "text": "Ishga joylashishda yordam va maslahat"
+        }
+      },
+      "form": {
+        "title": "Kursga ro‘yxatdan o‘tish",
+        "name": "To‘liq ism",
+        "curs": "Kursni tanlang",
+        "mess": "Qo‘shimcha xabar"
+      }
+    },
+    "jobs": {
+      "title": "Ish topmoqchimisiz?",
+      "text": "Rezyumeni yuboring va biz siz bilan bog‘lanamiz. Suhbatdan muvaffaqiyatli o‘tsangiz, ish topishingiz mumkin!",
+      "more": {
+        "1": {
+          "title": "Kafolatlangan ish",
+          "text": "Malakangizga mos ish topishga yordam beramiz"
+        },
+        "2": {
+          "title": "Yaxshi maosh",
+          "text": "IT sohasida yuqori daromad va imkoniyatlar"
+        },
+        "3": {
+          "title": "Karyera o‘sishi",
+          "text": "Doimiy rivojlanish va yangi imkoniyatlar"
+        }
+      },
+      "form": {
+        "title": "Rezyumeni yuboring",
+        "name": "To‘liq ism",
+        "gmail": "Email manzilingiz",
+        "about": "O‘zingiz haqida",
+        "work": "Ish tajribasi",
+        "skills": "Ko‘nikmalar",
+        "upload": "Rezyumeni yuklash"
+      }
+    }
   }
 }
