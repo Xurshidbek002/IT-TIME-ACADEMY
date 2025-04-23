@@ -6,6 +6,7 @@ import Graduates from "../Components/Graduates";
 import OurCourses from "../Components/OurCourses";
 import Achievements from "../Components/Achievements";
 import Registration from "../Components/Registration";
+import OurMentors from "../Components/OurMentors";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <OurCourses />
       <Achievements />
       <Registration />
+      <OurMentors />
     </div>
   );
 }

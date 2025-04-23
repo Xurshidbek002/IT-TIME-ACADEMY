@@ -177,5 +177,29 @@
         "upload": "Upload resume"
       }
     }
+  },
+  "ourmentors": {
+    "title": "Our Mentors",
+    "text": "Experienced professionals who will help you achieve success",
+    "rustam": {
+      "daraja": "Senior frontent teacher",
+      "text": "10+ years of programming experience, 500+ successful graduates and author of many international projects"
+    },
+    "gulbahor": {
+      "daraja": "Graphic Design Teacher",
+      "text": "Experienced teacher in graphic design and digital art"
+    },
+    "islom": {
+      "daraja": "Frontend Teacher",
+      "text": "Experienced teacher in Frontend development and modern web technologies"
+    },
+    "bexruz": {
+      "daraja": "Frontend Teacher",
+      "text": "Experienced Frontend development teacher, 100+ successful students"
+    },
+    "dilshod": {
+      "daraja": "Python Teacher",
+      "text": "Experienced teacher in Python development and backend development"
+    }
   }
 }
