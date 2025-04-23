@@ -5,6 +5,7 @@ import Section from "../Components/Section";
 import Graduates from "../Components/Graduates";
 import OurCourses from "../Components/OurCourses";
 import Achievements from "../Components/Achievements";
+import Registration from "../Components/Registration";
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Graduates />
       <OurCourses />
       <Achievements />
+      <Registration />
     </div>
   );
 }
