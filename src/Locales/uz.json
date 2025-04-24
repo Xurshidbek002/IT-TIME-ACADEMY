@@ -175,5 +175,64 @@
         "upload": "Rezyumeni yuklash"
       }
     }
+  },
+  "ourmentors": {
+    "title": "Bizning ustozlar",
+    "text": "Muvaffaqiyat sari yetaklaydigan tajribali mutaxassislar",
+    "rustam": {
+      "daraja": "Katta frontend o‘qituvchisi",
+      "text": "10+ yillik dasturlash tajribasi, 500+ muvaffaqiyatli bitiruvchi va xalqaro loyihalar muallifi"
+    },
+    "gulbahor": {
+      "daraja": "Grafik dizayn o‘qituvchisi",
+      "text": "Grafik dizayn va raqamli san’at bo‘yicha tajribali o‘qituvchi"
+    },
+    "islom": {
+      "daraja": "Frontend o‘qituvchisi",
+      "text": "Frontend va zamonaviy web texnologiyalar bo‘yicha tajribali o‘qituvchi"
+    },
+    "bexruz": {
+      "daraja": "Frontend o‘qituvchisi",
+      "text": "Frontend bo‘yicha tajribali o‘qituvchi, 100+ muvaffaqiyatli talaba"
+    },
+    "dilshod": {
+      "daraja": "Python o‘qituvchisi",
+      "text": "Python va backend dasturlash bo‘yicha tajribali o‘qituvchi"
+    }
+  },
+  "offer": {
+    "top": "Maxsus taklif",
+    "title1": "Kelajakni quramiz",
+    "titlespan": " birga ",
+    "title2": "do‘stingiz bilan!",
+    "text": "IT Time Academy'da o‘qish – bu kelajakka investitsiya! Do‘stingizni taklif qiling va 500 000 so‘m bonusga ega bo‘ling.",
+    "1": "✅ 💰 Har bir do‘st uchun 500 000 so‘m mukofot",
+    "2": "✅ 🎓 Do‘stingiz uchun 20% chegirma",
+    "3": "✅ 🚀 Professional ustozlar bilan o‘qish",
+    "4": "✅ ✨ Zamonaviy dasturlash ko‘nikmalari",
+    "btn": "Batafsil",
+    "ch": "* Taklif cheklangan muddat uchun amal qiladi",
+    "bonus": "Bonus",
+    "sum": "So‘m"
+  },
+  "team": {
+    "top": "Bizning jamoa",
+    "part": "HAMKORLAR",
+    "1": {
+      "title": "Frontend dasturlash",
+      "text": "Zamonaviy frontend olamiga sho‘ng‘ing! React, JavaScript ni o‘rganing va tajribali ustozlar yordamida ajoyib foydalanuvchi interfeyslarini yarating."
+    },
+    "2": {
+      "title": "Backend dasturlash",
+      "text": "Backend dasturlash bo‘yicha mutaxassis bo‘ling! Ma’lumotlar bazasi, API va server arxitekturasi bilan ishlashni o‘rganing. Ishonchli va kengaytiriladigan ilovalarni yarating."
+    },
+    "bottom": {
+      "text": "IT – bu kelajak, IT Time Academy’da tajribali ustozlar bilan zamonaviy kasblardan birini o‘rganing!",
+      "form": {
+        "title": "Bepul maslahat",
+        "name": "Ismingiz",
+        "btn": "Yuborish"
+      }
+    }
   }
 }

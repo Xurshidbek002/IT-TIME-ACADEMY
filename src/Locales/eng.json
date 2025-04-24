@@ -201,5 +201,40 @@
       "daraja": "Python Teacher",
       "text": "Experienced teacher in Python development and backend development"
     }
+  },
+  "offer": {
+    "top": "Special Offer",
+    "title1": "Build the future",
+    "titlespan": " together ",
+    "title2": "with your friend!",
+    "text": "Studying at IT Time Academy is an investment in the future! Invite your friend and get a 500,000 sum bonus.",
+    "1": "✅ 💰 500,000 sum reward for each friend",
+    "2": "✅ 🎓 20% discount for your friend",
+    "3": "✅ 🚀 Study with professional mentors",
+    "4": "✅ ✨ Modern programming skills",
+    "btn": "Details",
+    "ch": "* Offer valid for a limited time",
+    "bonus": "Bonus",
+    "sum": "Sum"
+  },
+  "team": {
+    "top": "Our team",
+    "part": "PARTNERS",
+    "1": {
+      "title": "Frontend Development",
+      "text": "Dive into the world of modern frontend development! Learn React, JavaScript and create amazing user interfaces with the help of experienced mentors."
+    },
+    "2": {
+      "title": "Backend Development",
+      "text": "Become an expert in backend development! Learn to work with databases, APIs, and server architecture. Create reliable and scalable applications."
+    },
+    "bottom": {
+      "text": "IT is the future, learn one of the modern professions with IT Time Academy from experienced mentors!",
+      "form": {
+        "title": "Free Consultation",
+        "name": "Your name",
+        "btn": "Submit"
+      }
+    }
   }
 }

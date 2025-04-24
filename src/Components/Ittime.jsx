@@ -4,6 +4,7 @@ import RotatingIcons from "./RotatingIcons";
 import Modal from "./Modal";
 import { FaSpinner } from "react-icons/fa";
 import { toast } from "react-toastify";
+import { IoClose } from "react-icons/io5";
 
 function Ittime() {
   useEffect(() => {
@@ -61,14 +62,14 @@ function Ittime() {
     }
   };
   const { t } = useTranslation();
-  
+
   return (
     <div>
       <div className="container">
-      <div
-        id="particles-js"
-        className="absolute top-0 left-0 w-full h-full z-0"
-      ></div>
+        <div
+          id="particles-js"
+          className="absolute top-0 left-0 w-full h-full z-0"
+        ></div>
         <div className="grid grid-cols-1 lg:grid-cols-2  md:gap-8 items-center h-[90vh]">
           <div className="flex flex-col gap-5 items-center text-center lg:text-left lg:items-start">
             <h2
@@ -105,6 +106,12 @@ function Ittime() {
         {open && (
           <Modal onClose={handleModal}>
             <div className="bg-white relative h-full max-w-[270px] md:max-w-md mx-auto p-6 rounded-lg shadow-lg overflow-y-auto">
+              <button
+                onClick={handleModal}
+                className="absolute right-5 top-5 text-2xl hover:bg-gray-200 rounded-full p-1"
+              >
+                <IoClose/>
+              </button>
               <h2 className="text-xl md:text-2xl font-bold mb-2">
                 {t("header.modal.title")}
               </h2>

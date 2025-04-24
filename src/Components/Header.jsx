@@ -14,6 +14,7 @@ import { NavLink } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { RiInstagramFill } from "react-icons/ri";
 import Modal from "./Modal";
+import { IoClose } from "react-icons/io5";
 
 function Header() {
   const { t, i18n } = useTranslation();
@@ -349,6 +350,9 @@ function Header() {
       {open && (
         <Modal onClose={handleModal}>
           <div className="bg-white relative h-full max-w-[270px] md:max-w-md mx-auto p-6 rounded-lg shadow-lg overflow-y-auto">
+            <button onClick={handleModal} className="absolute right-5 top-5 text-2xl hover:bg-gray-200 rounded-full p-1">
+                          <IoClose />
+                        </button>
             <h2 className="text-xl md:text-2xl font-bold mb-2">
               {t("header.modal.title")}
             </h2>
