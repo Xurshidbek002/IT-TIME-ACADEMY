@@ -30,11 +30,11 @@ function Team() {
             {t("team.top")}
           </h1>
           <div className="w-29 rounded-2xl mx-auto mt-3 mb-5 h-1 bg-gradient-to-r from-[#174db7] via-[#299e9e] to-[#111a91] "></div>
-          <div className="flex flex-col lg:flex-row justify-center gap-10">
+          <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
             {base.map((item) => (
               <div
                 key={item.id}
-                className="p-8 w-100 relative bg-white rounded-3xl group duration-500 hover:shadow-2xl overflow-hidden"
+                className="p-8 lg:max-w-100 relative bg-white rounded-3xl group duration-500 hover:shadow-2xl overflow-hidden"
               >
                 <div className="absolute top-7 right-7 text-5xl z-1 float-animation -rotate-45 group-hover:rotate-0 translate-y-5 group-hover:translate-0 duration-500 opacity-0 group-hover:opacity-100">
                   {item.icon}
@@ -44,12 +44,12 @@ function Team() {
                 <img
                   src={item.img}
                   alt=""
-                  className="w-94 rounded-2xl duration-500 h-60 object-cover group-hover:-translate-y-2 group-hover:scale-110"
+                  className="w-full lg:max-w-94 rounded-2xl duration-500 h-80 lg:h-60 object-cover group-hover:-translate-y-2 group-hover:scale-110"
                 />
-                <h2 className="text-4xl font-extrabold text-black/80 max-w-70 pt-5 group-hover:text-[#6fb9bb] duration-500">
+                <h2 className="text-3xl lg:text-4xl text-center lg:text-left font-extrabold text-black/80 lg:max-w-70 pt-5 group-hover:text-[#6fb9bb] duration-500">
                   {t(item.title)}
                 </h2>
-                <p className="text-gray-600 text-xl pt-3 font-medium text-shadow-md">
+                <p className="text-gray-600 text-center lg:text-left text-md lg:text-xl pt-3 font-medium text-shadow-md">
                   {t(item.text)}
                 </p>
               </div>
