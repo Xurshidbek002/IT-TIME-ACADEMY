@@ -88,3 +88,19 @@ body {
 .float-animation {
   animation: floatUpDown 3s ease-in-out infinite;
 }
+/* --------------------------- */
+@keyframes teamanimation {
+  0%,
+  100% {
+    transform: translateY(0);
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: translateY(18px);
+
+  }
+}
+
+.float1-animation {
+  animation: teamanimation 3s ease-in-out infinite;
+}

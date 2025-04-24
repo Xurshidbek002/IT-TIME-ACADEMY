@@ -16,7 +16,7 @@ function Offer() {
     <div className="py-10 md:px-15">
       <div className="container grid grid-cols-1 gap-10 lg:grid-cols-2 items-center">
         <div className=" lg:h-130 shadow-2xl overflow-hidden group rounded-3xl duration-500 relative -skew-y-1 hover:skew-0">
-          <div className="absolute flex flex-col items-center z-10 bg-white border-4 rounded-2xl border-red-500 w-40 right-5 top-5">
+          <div className="absolute flex flex-col items-center z-10 bg-white border-4 rounded-2xl border-red-500 w-40 right-[50%] top-5 lg:right-5 lg:top-5">
             <div className="text-red-400">{t("offer.bonus")}</div>
             <h3 className="text-3xl text-gray-700 font-bold">500 000</h3>
             <div className="text-gray-500">{t("offer.sum")}</div>
