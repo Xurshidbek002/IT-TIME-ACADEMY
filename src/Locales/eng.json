@@ -282,5 +282,24 @@
       "desc": "As an experienced teacher in Python development and backend development, I have extensive experience in teaching students modern programming.",
       "text": "Specialization"
     }
+  },
+  "course": {
+    "tolov": "Installment Available",
+    "btn": "Learn More",
+    "frontend": {
+      "text": "Frontend web development. HTML, CSS, JavaScript, React and other modern",
+      "pul": "1200000 sum/month",
+      "vaqt": "6 months"
+    },
+    "backend": {
+      "text": "Server-side development. Node.js, Python, databases and API creation.",
+      "pul": "1200000 sum/month",
+      "vaqt": "6 months"
+    },
+    "design": {
+      "text": "UI/UX design basics. Graphic design, interface creation for web and mobile",
+      "pul": "1500000 sum/month",
+      "vaqt": "3   months"
+    }
   }
 }

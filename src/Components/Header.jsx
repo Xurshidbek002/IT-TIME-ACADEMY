@@ -138,7 +138,7 @@ function Header() {
             <nav className="hidden md:flex gap-4 items-center">
               <NavLink
                 to="/"
-                className="text-xl button font-medium text-gray-800"
+                className="text-[18px] button font-medium text-gray-800"
               >
                 {t("header.home")}
               </NavLink>
@@ -149,7 +149,7 @@ function Header() {
               ></div>
               <NavLink
                 to="/courses"
-                className="text-xl button font-medium text-gray-800"
+                className="text-[18px] button font-medium text-gray-800"
               >
                 {t("header.courses")}
               </NavLink>
@@ -161,7 +161,7 @@ function Header() {
 
               <NavLink
                 to="/mentors"
-                className="text-xl button font-medium text-gray-800"
+                className="text-[18px] button font-medium text-gray-800"
               >
                 {t("header.mentors")}
               </NavLink>
@@ -173,7 +173,7 @@ function Header() {
 
               <NavLink
                 to="/about"
-                className="text-xl button font-medium text-gray-800"
+                className="text-[18px] button font-medium text-gray-800"
               >
                 {t("header.about")}
               </NavLink>
@@ -185,7 +185,7 @@ function Header() {
 
               <NavLink
                 to="/contact"
-                className="text-xl button font-medium text-gray-800"
+                className="text-[18px] button font-medium text-gray-800"
               >
                 {t("header.contact")}
               </NavLink>
