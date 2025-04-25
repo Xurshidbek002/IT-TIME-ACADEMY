@@ -301,5 +301,41 @@
       "pul": "1500000 sum/month",
       "vaqt": "3   months"
     }
+  },
+  "aboutUs": {
+    "since": "Serving you since 2017",
+    "title": "IT TIME ACADEMY",
+    "subtitle": "A modern IT education center — the best choice for learning future professions",
+    "desc": "IT TIME ACADEMY is one of the largest and most trusted programming schools in Uzbekistan. Since 2017, we have been providing quality education in modern IT professions to thousands of young people. Our goal is not only to teach programming, but also to prepare each student for a successful career. We focus on individual development and use modern teaching methods.",
+    "item1": {
+      "title": "Modern programming",
+      "desc": "We teach the latest technologies and programming languages"
+    },
+    "item2": {
+      "title": "Experienced teachers",
+      "desc": "Education from professional mentors and practicing developers"
+    },
+    "item3": {
+      "title": "Practical experience",
+      "desc": "Opportunity to work on real projects and build a portfolio"
+    },
+    "count1": "Successful graduates",
+    "count2": "Professional teachers",
+    "count3": "Modern courses",
+    "count4": "Employment rate"
+  },
+  "footer": {
+    "description": "IT TIME ACADEMY is one of the largest and most trusted programming schools in Uzbekistan. Since 2017, we have been providing quality IT education to thousands of young people.",
+    "quick_links": "Quick Links",
+    "contact_us": "Contact Us",
+    "links": {
+      "home": "Home",
+      "courses": "Courses",
+      "mentors": "Mentors",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "address": "Tashkent city, Amir Temur avenue, 100A",
+    "hours": "Monday - Saturday: 09:00 - 18:00"
   }
 }

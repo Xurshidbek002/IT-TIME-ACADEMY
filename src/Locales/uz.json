@@ -252,6 +252,54 @@
       "add": "Manzil"
     }
   },
+  "mentors": {
+    "title": "Ustozlarimiz",
+    "text": "Sizning muvaffaqiyatingiz sari yo‘l ko‘rsatuvchi tajribali mutaxassislar",
+    "rustam": {
+      "upp": "Katta Frontend o‘qituvchisi",
+      "desc": "O‘n yildan ortiq dasturlash va besh yildan ortiq o‘qituvchilik tajribam bilan 500 dan ortiq o‘quvchini professional dasturchiga aylantirishga yordam berdim. Frontend texnologiyalari va zamonaviy dasturlash metodologiyalarida chuqur bilim va amaliy tajribaga egaman.",
+      "text": "Yo‘nalishi"
+    },
+    "gulbahor": {
+      "upp": "Grafik dizayn o‘qituvchisi",
+      "desc": "Grafik dizayn bo‘yicha tajribali o‘qituvchi sifatida men zamonaviy dasturlash va dizayn texnologiyalarini katta ishtiyoq bilan o‘rgataman.",
+      "text": "Yo‘nalishi"
+    },
+    "islom": {
+      "upp": "Frontend o‘qituvchisi",
+      "desc": "Frontend yo‘nalishida tajribali o‘qituvchi sifatida men talabalarni zamonaviy veb texnologiyalar bo‘yicha ishtiyoq bilan o‘qitaman.",
+      "text": "Yo‘nalishi"
+    },
+    "behruz": {
+      "upp": "Frontend o‘qituvchisi",
+      "desc": "Frontend yo‘nalishida tajribam katta bo‘lib, zamonaviy veb texnologiyalarni o‘rgatish bo‘yicha tajribam bor.",
+      "text": "Yo‘nalishi"
+    },
+    "dilshod": {
+      "upp": "Python o‘qituvchisi",
+      "desc": "Python va backend dasturlash bo‘yicha tajribali o‘qituvchiman, zamonaviy dasturlashni o‘rgatish bo‘yicha keng tajribam bor.",
+      "text": "Yo‘nalishi"
+    }
+  },
+  "course": {
+    "tolov": "Bo‘lib to‘lash imkoni mavjud",
+    "btn": "Batafsil",
+    "frontend": {
+      "text": "Frontend veb dasturlash. HTML, CSS, JavaScript, React va boshqa zamonaviy texnologiyalar",
+      "pul": "Oyiga 1 200 000 so‘m",
+      "vaqt": "6 oy"
+    },
+    "backend": {
+      "text": "Server taraf dasturlash. Node.js, Python, ma’lumotlar bazasi va API yaratish.",
+      "pul": "Oyiga 1 200 000 so‘m",
+      "vaqt": "6 oy"
+    },
+    "design": {
+      "text": "UI/UX dizayn asoslari. Grafik dizayn, veb va mobil interfeyslar yaratish.",
+      "pul": "Oyiga 1 500 000 so‘m",
+      "vaqt": "3 oy"
+    }
+  },
   "aboutUs": {
     "since": "2017 yildan buyon xizmatingizda",
     "title": "IT TIME ACADEMY",
@@ -273,5 +321,19 @@
     "count2": "Professional o'qituvchilar",
     "count3": "Zamonaviy kurslar",
     "count4": "Ishga joylashish darajasi"
+  },
+  "footer": {
+    "description": "IT TIME ACADEMY - O'zbekistondagi eng yirik va ishonchli dasturlash maktablaridan biri. 2017 yildan buyon minglab yoshlarga zamonaviy IT kasblarida sifatli ta'lim berib kelmoqda.",
+    "quick_links": "Tez havolalar",
+    "contact_us": "Biz bilan bog'laning",
+    "links": {
+      "home": "Asosiy",
+      "courses": "Kurslar",
+      "mentors": "Mentorlar",
+      "about": "Biz haqimizda",
+      "contact": "Aloqa"
+    },
+    "address": "Toshkent sh., Amir Temur shoh ko'chasi, 100A",
+    "hours": "Dushanba - Shanba: 09:00 - 18:00"
   }
 }

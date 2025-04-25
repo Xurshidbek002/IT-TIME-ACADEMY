@@ -105,7 +105,7 @@ const teacher = [
 function Mentors() {
   const { t } = useTranslation();
   return (
-    <div className="pt-35">
+    <div className="pt-35 pb-10">
       <div className="container">
         <h1 className="text-center text-4xl font-extrabold text-red-500">
           {t("mentors.title")}
