@@ -9,6 +9,7 @@ import Registration from "../Components/Registration";
 import OurMentors from "../Components/OurMentors";
 import Offer from "../Components/Offer";
 import Team from "../Components/Team";
+import ContactInfo from "../Components/ContactInfo";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <OurMentors />
       <Offer />
       <Team />
+      <ContactInfo />
     </div>
   );
 }

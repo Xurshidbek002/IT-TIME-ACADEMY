@@ -13,6 +13,7 @@
     "@lottiefiles/dotlottie-react": "^0.13.3",
     "@tailwindcss/vite": "^4.1.4",
     "aos": "^2.3.4",
+    "axios": "^1.9.0",
     "framer-motion": "^12.7.3",
     "i18next": "^25.0.0",
     "i18next-browser-languagedetector": "^8.0.4",

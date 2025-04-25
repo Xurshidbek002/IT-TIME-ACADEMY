@@ -69,7 +69,7 @@ function Registration() {
           {activ === "kurs" && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:pl-10">
               {/* Malumotlar */}
-              <div data-aos="zoom-in">
+              <div data-aos="fade-up">
                 <h2 className="text-xl text-center md:text-left md:text-2xl font-medium">
                   {t("register.enrolls.title")}
                 </h2>
@@ -99,14 +99,15 @@ function Registration() {
               </div>
 
               {/* Form */}
-              <div
-                data-aos="zoom-in"
-                className="bg-gray-200 p-5 w-full h-auto rounded-2xl"
-              >
-                <h3 className="text-xl text-center font-medium">
+              <div className="bg-gray-200 p-5 w-full h-auto rounded-2xl">
+                <h3
+                  data-aos="zoom-in"
+                  className="text-xl text-center font-medium"
+                >
                   {t("register.enrolls.form.title")}
                 </h3>
                 <form
+                  data-aos="zoom-in"
                   className="shadow-[0_0_20px_#000]/10 rounded-2xl h-auto mt-5 flex flex-col gap-5 p-5"
                   onSubmit={(e) => handleSubmit(e, "kurs")}
                 >
@@ -149,7 +150,7 @@ function Registration() {
           {/* Ishga yozilish */}
           {activ === "ish" && (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:pl-10">
-              <div data-aos="zoom-in">
+              <div data-aos="fade-up">
                 <h2 className="text-xl text-center md:text-left md:text-2xl font-medium">
                   {t("register.jobs.title")}
                 </h2>
@@ -179,14 +180,12 @@ function Registration() {
               </div>
 
               {/* Ish formasi */}
-              <div
-                data-aos="zoom-in"
-                className="bg-gray-200 p-5 pb-10 w-full h-auto rounded-2xl"
-              >
-                <h3 className="text-xl text-center font-medium">
+              <div className="bg-gray-200 p-5 pb-10 w-full h-auto rounded-2xl">
+                <h3 data-aos="zoom-in" className="text-xl text-center font-medium">
                   {t("register.jobs.form.title")}
                 </h3>
                 <form
+                  data-aos="zoom-in"
                   className="shadow-[0_0_20px_#000]/10 rounded-2xl h-auto mt-5 flex flex-col gap-5 p-5"
                   onSubmit={(e) => handleSubmit(e, "ish")}
                 >

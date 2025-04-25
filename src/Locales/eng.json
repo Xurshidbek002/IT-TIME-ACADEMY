@@ -236,5 +236,51 @@
         "btn": "Submit"
       }
     }
+  },
+  "contact": {
+    "form": {
+      "title": "Want to get in touch?",
+      "desc": "Fill out the form and we will contact you",
+      "label": "Your name",
+      "name": "Enter Your Name",
+      "labelphone": "Phone number",
+      "btn": "Submit"
+    },
+    "info": {
+      "title": "Contact us",
+      "tg": "Telegram",
+      "phone": "Phone",
+      "email": "Email",
+      "add": "Adress"
+    }
+  },
+  "mentors": {
+    "title": "Our Mentors",
+    "text": "Experienced professionals who will help you achieve success",
+    "rustam": {
+      "upp": "Senior Frontend Teacher",
+      "desc": "With over ten years of development experience and five years of teaching, I have helped more than 500 students become professional developers. I have deep knowledge and practical experience in modern frontend technologies and programming methodologies.",
+      "text": "Specialization"
+    },
+    "gulbahor": {
+      "upp": "Graphic Design Teacher",
+      "desc": "As an experienced teacher in graphic design, I approach teaching students modern design programs and technologies with great enthusiasm.",
+      "text": "Specialization"
+    },
+    "islom": {
+      "upp": "Frontend Teacher",
+      "desc": "As an experienced teacher in Frontend development, I approach teaching students modern web technologies with great enthusiasm.",
+      "text": "Specialization"
+    },
+    "behruz": {
+      "upp": "Frontend Teacher",
+      "desc": "As an experienced Frontend development teacher, I have extensive experience in teaching students modern web technologies.",
+      "text": "Specialization"
+    },
+    "dilshod": {
+      "upp": "Python Teacher",
+      "desc": "As an experienced teacher in Python development and backend development, I have extensive experience in teaching students modern programming.",
+      "text": "Specialization"
+    }
   }
 }

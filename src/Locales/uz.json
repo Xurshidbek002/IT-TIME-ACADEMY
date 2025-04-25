@@ -234,5 +234,22 @@
         "btn": "Yuborish"
       }
     }
+  },
+  "contact": {
+    "form": {
+      "title": "Bog'lanishni xohlaysizmi?",
+      "desc": "Formani to'ldiring va biz siz bilan bog'lanamiz",
+      "label": "Ismingiz",
+      "name": "Ismingizni kiriting",
+      "labelphone": "Telefon raqami",
+      "btn": "Yuborish"
+    },
+    "info": {
+      "title": "Biz bilan bog'lanish",
+      "tg": "Telegram",
+      "phone": "Telefon",
+      "email": "Email",
+      "add": "Manzil"
+    }
   }
 }
