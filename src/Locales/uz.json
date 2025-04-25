@@ -251,5 +251,27 @@
       "email": "Email",
       "add": "Manzil"
     }
+  },
+  "aboutUs": {
+    "since": "2017 yildan buyon xizmatingizda",
+    "title": "IT TIME ACADEMY",
+    "subtitle": "Zamonaviy IT ta'lim markazi - kelajak kasblarini o'rganish uchun eng yaxshi tanlov",
+    "desc": "IT TIME ACADEMY - O'zbekistonning eng yirik va ishonchli dasturlash maktablaridan biri. 2017-yildan buyon biz minglab yoshlarga zamonaviy IT kasblari bo'yicha sifatli ta'lim berib kelmoqdamiz. Bizning maqsadimiz - har bir o'quvchiga nafaqat dasturlashni o'rgatish, balki ularni kelajakdagi muvaffaqiyatli karyeraga tayyorlashdir. Biz har bir talabaning individual rivojlanishiga alohida e'tibor qaratamiz va zamonaviy ta'lim metodlaridan foydalanamiz.",
+    "item1": {
+      "title": "Zamonaviy dasturlash",
+      "desc": "Eng so'nggi texnologiyalar va dasturlash tillarini o'rgatamiz"
+    },
+    "item2": {
+      "title": "Tajribali o'qituvchilar",
+      "desc": "Professional mentorlar va amaliyotchi dasturchilardan ta'lim"
+    },
+    "item3": {
+      "title": "Amaliy tajriba",
+      "desc": "Real loyihalar ustida ishlash va portfolio yaratish imkoniyati"
+    },
+    "count1": "Muvaffaqiyatli bitiruvchilar",
+    "count2": "Professional o'qituvchilar",
+    "count3": "Zamonaviy kurslar",
+    "count4": "Ishga joylashish darajasi"
   }
 }
