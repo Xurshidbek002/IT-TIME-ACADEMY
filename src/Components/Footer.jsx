@@ -7,7 +7,10 @@ import {
   FaEnvelope,
   FaClock,
 } from "react-icons/fa";
+import { WiStars } from "react-icons/wi";
+
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
 export default function Footers() {
   const { t } = useTranslation();
@@ -16,10 +19,10 @@ export default function Footers() {
     <footer className="bg-gradient-to-r from-white via-pink-50 to-blue-50 p-8 text-gray-800">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* IT TIME ACADEMY */}
-        <div className="">
+        <div className="group">
           <h2 className="text-2xl font-bold">IT TIME ACADEMY</h2>
           <div className="w-30 h-1 group-hover:w-45 duration-1000 ease-in-out bg-gradient-to-r mt-2 mb-4 from-blue-700 via-amber-800 to-fuchsia-950 rounded-2xl "></div>
-          <p className="text-sm duration-500 hover:tracking-wide">{t("footer.description")}</p>
+          <p className="text-sm duration-500">{t("footer.description")}</p>
           <div className="flex space-x-4 mt-4">
             <a
               href="#"
@@ -49,29 +52,49 @@ export default function Footers() {
 
           <ul className="space-y-2 text-sm">
             <li>
-              <a href="#" className="duration-500 hover:tracking-widest">
+              <NavLink to="/" className="duration-500 flex items-center hover:tracking-widest">
+                <WiStars />
                 {t("footer.links.home")}
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="duration-500 hover:tracking-widest">
+              <NavLink
+                to="/courses"
+                className="duration-500 flex items-center hover:tracking-widest"
+              >
+                <WiStars />
+
                 {t("footer.links.courses")}
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="duration-500 hover:tracking-widest">
+              <NavLink
+                to="/mentors"
+                className="duration-500 flex items-center hover:tracking-widest"
+              >
+                <WiStars />
+
                 {t("footer.links.mentors")}
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="duration-500 hover:tracking-widest">
+              <NavLink
+                to="/about"
+                className="duration-500 flex items-center hover:tracking-widest"
+              >
+                <WiStars />
+
                 {t("footer.links.about")}
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#" className="duration-500 hover:tracking-widest">
+              <NavLink
+                to="/contact"
+                className="duration-500 flex items-center hover:tracking-widest"
+              >
+                <WiStars />
                 {t("footer.links.contact")}
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
